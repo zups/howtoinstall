@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>How to install NS1</title>
+</head>
+
+<body>
+<div>
+<h3> HOW TO INSTALL:</h3>
+<ol>
+<li>Install Half-Life from Steam, assuming you have it purchased (10-20e)</li>
+<li>Get NS1 Installer: 
+<ul>
+<li><a href="https://unknownworlds.com/ns/download-files/">https://unknownworlds.com/ns/download-files/</a></li>
+<li style="list-style-type:none"><b>OR</b></li>
+<li><a href="https://www.ensl.org/data_files/635">https://www.ensl.org/data_files/635</a>
+</ul>
+</li>
+</ol>
+</div>
+
+<div>
+<h3>HOW TO RUN:</h3>
+<ul>
+<li> After install reboot steam and it should appear to your library automatically. </li>
+<li style="list-style-type: none;"><h4 style="margin: 0;">OR</h4></li>
+<li>create shortcut e.g. : "C:\Program Files\Steam\Steam.exe" -applaunch 70 -game "ns"</li>
+</ul>
+</div>
+
+<b>Have fun!</b>
+
+<div>
+<h3>Other stuff (OPTIONAL):</h3>
+<ul>
+<li>You can install nL-pack if you want less UI clutter: <a href="http://www.ninelegends.com/releases/9l-ns-pack/">http://www.ninelegends.com/releases/9l-ns-pack/</a></li>
+<li>Custom NS1 client 3.2.1a <b>_for linux_</b> can be downloaded here with some client fixes:<a href="https://github.com/Bacsu/NS">https://github.com/Bacsu/NS</a>
+<ul>
+<li> <b> ONLY NEEDED FOR LINUX!!!</b></li>
+</ul>
+</li>
+<li>Maps and whatnot: <a href="http://www.brywright.co.uk/downloads/files/index.php?dir=natural-selection/">http://www.brywright.co.uk/downloads/files/index.php?dir=natural-selection/</a></li>
+</ul>
+</div>
+
+<div>
+<h3>Basic settings:</h3>
+<pre>
+<b>Good launch options:</b> -freq 144 -noforcemaccel -noforcemparms
+</pre>
+<ul style="margin:0">
+<li>Fixes mouse acceleration. <b>PLUS</b> m_rawinput "1"</li>
+<li>Should fix also "weird feeling mouse" issue!</li>
+</ul>
+<pre>
+<b>How to achieve over 60fps:</b>
+Create userconfig.cfg in your ns-folder(E.g. C:\steamgames\steamapps\common\Half-Life\ns)
+<b>or</b> 
+just put these commands in console:
+
+m_rawinput "1"
+gl_vsync "0"
+fps_override "1"
+fps_max "125" //above 125fps makes lmg/hmg shoot faster
+
+//"good rate settings"(dunno are they good but better than defaults):
+rate "20000"
+cl_updaterate "102"
+cl_cmdrate "130" //5 over your fps
+ex_interp "0.08"(edited)
+</pre>
+</div>
+
+</body>
+</html>
