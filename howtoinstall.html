@@ -50,7 +50,7 @@
 <b>Good launch options:</b> -freq 144 -noforcemaccel -noforcemparms
 </pre>
 <ul style="margin:0">
-<li>Fixes mouse acceleration. <b>PLUS</b> m_rawinput "1"</li>
+<li>Fixes mouse acceleration. <b>WITH</b> m_rawinput "1"</li>
 <li>Should fix also "weird feeling mouse" issue!</li>
 </ul>
 <pre>
@@ -59,7 +59,6 @@ Create userconfig.cfg in your ns-folder(E.g. C:\steamgames\steamapps\common\Half
 <b>or</b> 
 just put these commands in console:
 
-m_rawinput "1"
 gl_vsync "0"
 fps_override "1"
 fps_max "125" //above 125fps makes lmg/hmg shoot faster
@@ -68,7 +67,10 @@ fps_max "125" //above 125fps makes lmg/hmg shoot faster
 rate "20000"
 cl_updaterate "102"
 cl_cmdrate "130" //5 over your fps
-ex_interp "0.08"(edited)
+ex_interp "0.08"
+
+//Mouse related stuff:
+m_rawinput "1"
 </pre>
 </div>
 
